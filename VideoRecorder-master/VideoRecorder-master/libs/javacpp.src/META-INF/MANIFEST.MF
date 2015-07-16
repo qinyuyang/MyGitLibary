@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Samuel Audet
+Implementation-Title: JavaCPP
+Implementation-Version: 0.7
+Built-By: saudet
+Build-Jdk: 1.7.0_45
+Class-Path: ./
+Specification-Vendor: Samuel Audet
+Name: com/googlecode/javacpp/
+Specification-Title: JavaCPP
+Created-By: Apache Maven 3.0.5
+Specification-Version: 0.7
+Main-Class: com.googlecode.javacpp.Builder
+Archiver-Version: Plexus Archiver
+
