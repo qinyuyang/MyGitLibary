@@ -32,6 +32,8 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 	//‘§¿¿÷°¬ 
 	int frameRate = 30;
 	
+	private native void saveFrameToVideo();
+	
 	public CameraView(Camera camera,Context context,Activity activity)
 	{
 		super(context);
@@ -51,6 +53,7 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 	public void onPreviewFrame(byte[] arg0, Camera arg1) {
 		// TODO Auto-generated method stub
 	//	Log.d(TAG, "onPreViewFrame");
+		saveFrameToVideo();
 	}
 
 	@Override
