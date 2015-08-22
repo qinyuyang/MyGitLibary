@@ -1,5 +1,6 @@
 package com.example.aresrecorderactivity;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
@@ -13,6 +14,8 @@ import android.hardware.Camera.Parameters;
 import android.hardware.Camera.PreviewCallback;
 import android.hardware.Camera.Size;
 import android.os.Build;
+import android.os.Environment;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
@@ -21,6 +24,10 @@ import android.widget.Toast;
 
 public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, PreviewCallback {
 
+	public CameraView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+	}
 	Camera mCamera;
 	Context mContext;
 	SurfaceHolder mHolder;
@@ -29,14 +36,17 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 	Parameters cameraParameters;
 	Activity mCurrentActivity;
 	
+	public static boolean recording = false;
+	private boolean isFirstFrame = true;
+	
 	//预览帧率
 	int frameRate = 30;
 	
-	private native void saveFrameToVideo();
+	private native void saveFrameToVideo(String fileName, byte[] data);
 	
-	public CameraView(Camera camera,Context context,Activity activity)
+	
+	public void initData(Camera camera,Context context,Activity activity)
 	{
-		super(context);
 		mCamera = camera;
 		mContext = context;
 		mCurrentActivity = activity;
@@ -44,8 +54,11 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 		mHolder.addCallback(this);
 		mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 		mCamera.setPreviewCallback(this);
+		
+		recording = false;
+		isFirstFrame = true;
+		
 	}
-	
 	/**
 	 * 每一帧都会回调
 	 */
@@ -53,7 +66,9 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 	public void onPreviewFrame(byte[] arg0, Camera arg1) {
 		// TODO Auto-generated method stub
 	//	Log.d(TAG, "onPreViewFrame");
-		saveFrameToVideo();
+	//	saveFrameToVideo();
+		
+		
 	}
 
 	@Override
@@ -250,5 +265,14 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 		return degrees;
 	}
 	
-	
+	private static String genrateFilePath(Context context, boolean isFinalPath, File tempFolderPath)
+	{
+		String fileName =System.currentTimeMillis() + ".mp4";
+		String dirPath = Environment.getExternalStorageDirectory()+"/Android/data/" + context.getPackageName()+"/video";
+		File file = new File(dirPath);
+		if(!file.exists() || !file.isDirectory())
+			file.mkdirs();
+		String filePath = dirPath + "/" + fileName;
+		return filePath;
+	}
 }
