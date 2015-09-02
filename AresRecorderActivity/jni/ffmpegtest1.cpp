@@ -1,15 +1,19 @@
 extern "C"
 {
-#include<libavcodec/avcodec.h>
-#include<libavformat/avformat.h>
-#include<libswscale/swscale.h>
+#include"include/libavcodec/avcodec.h"
+#include"include/libavformat/avformat.h"
+#include"include/libswscale/swscale.h"
 }
+
+
+
 
 
 #include<iostream>
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<jni.h>
 
 using namespace std;
 
