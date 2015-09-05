@@ -13,6 +13,7 @@ import android.hardware.Camera.Parameters;
 import android.hardware.Camera.PreviewCallback;
 import android.hardware.Camera.Size;
 import android.os.Build;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
@@ -29,14 +30,35 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 	Parameters cameraParameters;
 	Activity mCurrentActivity;
 	
+	public boolean isRecording = false;
+	
 	//‘§¿¿÷°¬ 
 	int frameRate = 30;
 	
-	private native void saveFrameToVideo();
+    static{
+        System.loadLibrary("avutil-51");
+        System.loadLibrary("avcodec-54");
+        System.loadLibrary("swresample-0");
+        System.loadLibrary("avformat-54");
+        System.loadLibrary("swscale-2");
+        System.loadLibrary("avfilter-3");
+        System.loadLibrary("avdevice-54");
+
+        System.loadLibrary("ffmpegtest");
+    }
 	
-	public CameraView(Camera camera,Context context,Activity activity)
+	private native void saveFrameToVideo(String fileName,byte[] arg0);
+	
+	public CameraView(Context context) {
+	    super(context);
+	    }
+	  public CameraView(Context context,AttributeSet attrs)
+	  {
+	       super(context, attrs);
+	   }
+	
+	public void initCamera(Camera camera,Context context,Activity activity)
 	{
-		super(context);
 		mCamera = camera;
 		mContext = context;
 		mCurrentActivity = activity;
@@ -53,7 +75,11 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 	public void onPreviewFrame(byte[] arg0, Camera arg1) {
 		// TODO Auto-generated method stub
 	//	Log.d(TAG, "onPreViewFrame");
-		saveFrameToVideo();
+		if(isRecording)
+		{
+			saveFrameToVideo("recording",null);
+		}
+	
 	}
 
 	@Override
@@ -250,5 +276,5 @@ public class CameraView  extends SurfaceView implements SurfaceHolder.Callback, 
 		return degrees;
 	}
 	
-	
+
 }

@@ -1,0 +1,241 @@
+D:/MyGitLibary/AresRecorderActivity/obj/local/armeabi/objs-debug/ffmpegtest//cygdrive/d/MyGitLibary/AresRecorderActivity/jni/ffmpegtest1.o: \
+ D:/MyGitLibary/AresRecorderActivity/jni/ffmpegtest1.cpp \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/avcodec.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/errno.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/errno.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/errno.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm-generic/errno.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm-generic/errno-base.h \
+ include/libavutil/samplefmt.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ include/libavutil/avutil.h include/libavutil/common.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/ctype.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/inttypes.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/limits.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/limits.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/limits.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/internal_types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/limits.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/syslimits.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/page.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/math.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/stdio.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/string.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/strings.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/memory.h \
+ include/libavutil/attributes.h include/libavutil/avconfig.h \
+ include/libavutil/mem.h include/libavutil/error.h \
+ include/libavutil/version.h include/libavutil/mathematics.h \
+ include/libavutil/rational.h include/libavutil/intfloat.h \
+ include/libavutil/intfloat_readwrite.h include/libavutil/log.h \
+ include/libavutil/pixfmt.h include/libavutil/avutil.h \
+ include/libavutil/cpu.h include/libavutil/dict.h include/libavutil/log.h \
+ include/libavutil/pixfmt.h include/libavutil/rational.h \
+ include/libavutil/audioconvert.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/version.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/../libavutil/avutil.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/old_codec_ids.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/../libavutil/common.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/avformat.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/time.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/time.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/time.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/siginfo.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm-generic/siginfo.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavcodec/avcodec.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/dict.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/log.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/avio.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/common.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/version.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/avutil.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/time.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libswscale/swscale.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/libswscale/version.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/jni.h \
+ D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/log.h \
+ D:/MyGitLibary/AresRecorderActivity/jni/include/com_example_aresrecorderactivity_CameraView.h
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/avcodec.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/errno.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/api-level.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/errno.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/errno.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm-generic/errno.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm-generic/errno-base.h:
+
+include/libavutil/samplefmt.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/stdint.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/_types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/_types.h:
+
+include/libavutil/avutil.h:
+
+include/libavutil/common.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/ctype.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/inttypes.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/limits.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/limits.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/limits.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/internal_types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/limits.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/syslimits.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/page.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/math.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/stddef.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/compiler.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/types.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/machine/kernel.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/stdio.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/stdlib.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/string.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/malloc.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/alloca.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/strings.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/memory.h:
+
+include/libavutil/attributes.h:
+
+include/libavutil/avconfig.h:
+
+include/libavutil/mem.h:
+
+include/libavutil/error.h:
+
+include/libavutil/version.h:
+
+include/libavutil/mathematics.h:
+
+include/libavutil/rational.h:
+
+include/libavutil/intfloat.h:
+
+include/libavutil/intfloat_readwrite.h:
+
+include/libavutil/log.h:
+
+include/libavutil/pixfmt.h:
+
+include/libavutil/avutil.h:
+
+include/libavutil/cpu.h:
+
+include/libavutil/dict.h:
+
+include/libavutil/log.h:
+
+include/libavutil/pixfmt.h:
+
+include/libavutil/rational.h:
+
+include/libavutil/audioconvert.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/version.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/../libavutil/avutil.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/old_codec_ids.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavcodec/../libavutil/common.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/avformat.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/time.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/time.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/linux/time.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm/siginfo.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/asm-generic/siginfo.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavcodec/avcodec.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/dict.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/log.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/avio.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/common.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/version.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/avutil.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libavformat/../libavutil/time.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libswscale/swscale.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/libswscale/version.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/jni.h:
+
+D:/androidndk/android-ndk-r9-windows-x86/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/log.h:
+
+D:/MyGitLibary/AresRecorderActivity/jni/include/com_example_aresrecorderactivity_CameraView.h:

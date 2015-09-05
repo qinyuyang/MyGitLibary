@@ -14,6 +14,16 @@ extern "C"
 #include<string.h>
 #include<stdlib.h>
 #include<jni.h>
+#include<android/log.h>
+#include"include/com_example_aresrecorderactivity_CameraView.h"
+
+
+#define TAG "AresRecorder" // 这个是自定义的LOG的标识
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG ,__VA_ARGS__) // 定义LOGD类型
+#define LOGI(...) __android_log_print(ANDROID_LOG_INFO,TAG ,__VA_ARGS__) // 定义LOGI类型
+#define LOGW(...) __android_log_print(ANDROID_LOG_WARN,TAG ,__VA_ARGS__) // 定义LOGW类型
+#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR,TAG ,__VA_ARGS__) // 定义LOGE类型
+#define LOGF(...) __android_log_print(ANDROID_LOG_FATAL,TAG ,__VA_ARGS__) // 定义LOGF类型
 
 using namespace std;
 
@@ -280,4 +290,43 @@ int recordVideo(char* filename,uint8_t* data)
 
    return 0;
 }
+
+char* jstringTostring(JNIEnv* env, jstring jstr) {
+	char* rtn = NULL;
+	jclass clsstring = env->FindClass("java/lang/String");
+	jstring strencode = env->NewStringUTF("utf-8");
+	jmethodID mid = env->GetMethodID(clsstring, "getBytes",
+			"(Ljava/lang/String;)[B");
+	jbyteArray barr = (jbyteArray) env->CallObjectMethod(jstr, mid, strencode);
+	jsize alen = env->GetArrayLength(barr);
+	jbyte* ba = env->GetByteArrayElements(barr, JNI_FALSE);
+	if (alen > 0) {
+		rtn = (char*) malloc(alen + 1);
+
+		memcpy(rtn, ba, alen);
+		rtn[alen] = 0;
+	}
+	env->ReleaseByteArrayElements(barr, ba, 0);
+	return rtn;
+}
+
+//uint8_t*
+void jbyteArray_to_uint8_t(JNIEnv* env, jbyteArray jdata)
+{
+	  jsize len  = env->GetArrayLength(jdata);
+
+      jbyte *jbarray = (jbyte *)malloc(len * sizeof(jbyte));
+
+      env->GetByteArrayRegion(env,jdata,0,len,jdata);
+
+      uint8_t* dDate=(uint8_t*)jbarray;
+}
+
+JNIEXPORT void JNICALL  Java_com_example_aresrecorderactivity_CameraView_saveFrameToVideo(JNIEnv* env, jobject obj, jstring js, jbyteArray jdata)
+{
+	char* filename = jstringTostring(env, js);
+	LOGD("%s",filename);
+	jbyteArray_to_uint8_t(env, jdata);
+}
+
 

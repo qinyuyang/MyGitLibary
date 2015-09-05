@@ -7,8 +7,13 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
 public class MainActivity extends Activity {
@@ -16,8 +21,10 @@ public class MainActivity extends Activity {
 	private Camera mCamera;
 	private CameraView mCameraView;
 	private SurfaceHolder mSurfaceHolder;
-	private RelativeLayout mContentView;
+	private FrameLayout mContentView;
 	private LayoutInflater mInflater;
+	
+	private Button mRecordButton;
 	
 	
 	//分别为 默认摄像头（后置）、默认调用摄像头的分辨率、被选择的摄像头（前置或者后置）
@@ -45,9 +52,27 @@ public class MainActivity extends Activity {
     private void initView()
     {
     	mInflater = getLayoutInflater();
-    	mContentView = (RelativeLayout) mInflater.inflate(R.layout.activity_main, null);
-    	mCameraView = new CameraView(mCamera, this, this);
-    	mContentView.addView(mCameraView);
+    	mContentView = (FrameLayout) mInflater.inflate(R.layout.activity_main, null);
+    	mCameraView = (CameraView) mContentView.findViewById(R.id.camera_view);
+    	mCameraView.initCamera(mCamera, this, this);
+    	
+    	mRecordButton = (Button) mContentView.findViewById(R.id.btn_record);
+    	mRecordButton.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View arg0, MotionEvent arg1) {
+				// TODO Auto-generated method stub
+				if(arg1.getAction() == MotionEvent.ACTION_DOWN)
+				{
+					mCameraView.isRecording = true;
+				}
+				else if(arg1.getAction() == MotionEvent.ACTION_UP)
+				{
+					mCameraView.isRecording = false;
+				}
+				return false;
+			}
+		});
         setContentView(mContentView);
     }
     
